@@ -1,6 +1,6 @@
 "use client"
 import { useState, useCallback, useEffect } from "react"
-import useRegister from "@/hooks/useEmails"
+import useRegister from "@/hooks/useRegisters"
 
 export default function Home() {
   const { registers, addRegister, removeRegister } = useRegister()
